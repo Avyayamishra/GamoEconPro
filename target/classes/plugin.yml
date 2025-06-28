@@ -1,0 +1,71 @@
+name: GamoEconPro
+version: 1.0
+main: com.gamo.gamoeconpro.GamoEconPro
+api-version: 1.20
+commands:
+  rupiya:
+    description: Add or remove money from player (Admin only)
+    usage: /rupiya <add|remove> <player> <amount>
+  khata:
+    description: Check your current balance
+  bheje:
+    description: Transfer money to another player with tax
+    usage: /bheje <player> <amount>
+  shop:
+    description: Shop management commands
+    usage: /shop <create|remove|info|help>
+  registerbusiness:
+    description: Apply for a business license
+    usage: /registerbusiness <name>
+  cancelapplication:
+    description: Cancel your business application
+  cancelbusiness:
+    description: Cancel a registered business
+    usage: /cancelbusiness <name>
+  viewbusinesses:
+    description: View someone's registered businesses
+    usage: /viewbusinesses <player>
+  approvebusiness:
+    description: Approve a player's business license (Mayor only)
+    usage: /approvebusiness <player>
+  stocks:
+    description: Stock market commands
+    usage: /stocks <companies|invest|dashboard|sell>
+  jobs:
+    description: Job management commands
+    usage: /jobs <view|take|quit>
+  bank:
+    description: Banking system commands
+    usage: /bank [create|deposit|withdraw|transfer]
+  coinflip:
+    description: Coin flip game
+    usage: /coinflip <heads|tails> <amount>
+  dicebet:
+    description: Dice betting game
+    usage: /dicebet <1-6> <amount>
+  blackjack:
+    description: Blackjack game
+    usage: /blackjack <amount> | /blackjack hit | /blackjack stand
+  treasury:
+    description: View or manage national treasury (Mayor only)
+    usage: /treasury [deposit|withdraw] <amount>
+  tax:
+    description: Set tax rates for different heads
+    usage: /tax set <head> <value>
+  mayor:
+    description: Mayor election and management commands
+    usage: /mayor [register|vote|startelection|endelection|info|force]
+    treasury:
+      description: View or manage national treasury
+      usage: /treasury [deposit|withdraw] <amount>
+    tax:
+      description: Set tax rates
+      usage: /tax set <rate>
+
+permissions:
+  gamoecon.admin:
+    description: Admin permissions for economy management
+    default: op
+  gamoecon.mayor:
+    description: Mayor permissions for business approval and treasury management
+    default: op

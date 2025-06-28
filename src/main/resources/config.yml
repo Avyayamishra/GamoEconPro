@@ -1,0 +1,15 @@
+# GamoEconPro Configuration File
+
+interest-rate: 1.75
+starting-balance: 0.0
+mayor-uuid: "1f77b0f7-d7b4-4c2c-a842-cf9c83ed8fdd"  # GamoSol
+
+taxes:
+  transfer: 15.0
+  registration: 1500.0
+  transaction: 5.0
+  financial-exp: 7.0
+  financial-rev: 10.0
+  employment: 2.0
+  entertainment: 15.0
+  bank: 2.5
