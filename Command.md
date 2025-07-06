@@ -1,4 +1,4 @@
-
+# GamoEconPro - The Ultimate Minecraft Economy Experience
 ---
 
 ## Commands Reference
