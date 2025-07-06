@@ -1,188 +1,271 @@
-# 🏛️ GamoEconPro - The Ultimate Minecraft Economy Experience
+# GamoEconPro - The Ultimate Minecraft Economy Experience
 
-## 🌟 Overview
-**GamoEconPro** is a feature-rich, comprehensive economy plugin that transforms your Minecraft server into a thriving virtual economy! With realistic financial systems, government mechanics, and business opportunities, players can experience the full spectrum of economic gameplay.
+**Transform your Minecraft server into a thriving economic powerhouse!**
 
----
-
-## 💰 Core Features
-
-### 🏦 **Banking System**
-- Secure player accounts with interest rates
-- Advanced transaction tracking
-- Automated interest calculations
-- Multi-currency support with Rupiya (₹)
-
-### 🏢 **Business Management**
-- Register and manage businesses
-- Government approval process
-- Business-linked stock market integration
-- Revenue tracking and analytics
-
-### 📈 **Stock Market**
-- Real-time stock prices
-- Investment portfolios
-- Company listings
-- Dynamic price fluctuations based on business performance
-
-### 💼 **Jobs System**
-- Multiple job types with progression
-- Experience and level system
-- Tax benefits for higher levels
-- Skill-based bonuses and rewards
-
-### 🏪 **Chest Shop Economy**
-- Player-owned shops with chest storage
-- Buy/sell sign systems
-- Automated transactions
-- Stock management integration
-
-### 🎰 **Casino & Gaming**
-- Coin flip gambling
-- Dice betting games
-- Blackjack tables
-- Risk vs reward mechanics
-
-### 🏛️ **Government & Politics**
-- Mayor election system
-- Treasury management
-- Tax collection and rates
-- Public fund allocation
+Experience realistic banking with loans, run your own businesses, invest in stocks, and participate in democratic governance - all within Minecraft!
 
 ---
 
-## 🎮 Complete Command Reference
+## Why Choose GamoEconPro?
 
-### 💵 **Economy Commands**
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `/rupiya` | 👑 Admin money management | `/rupiya <add/remove> <player> <amount>` |
-| `/khata` | 📊 Check your balance | `/khata` |
-| `/bheje` | 💸 Send money to players (15% tax) | `/bheje <player> <amount>` |
+> *"Finally, an economy plugin that makes Minecraft feel like a real world!"* - Server Owner
 
-### 🏢 **Business Commands**
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `/registerbusiness` | 📝 Register a new business | `/registerbusiness <name>` |
-| `/cancelapplication` | ❌ Cancel business application | `/cancelapplication` |
-| `/cancelbusiness` | 🗑️ Cancel existing business | `/cancelbusiness <name>` |
-| `/viewbusinesses` | 👀 View all businesses | `/viewbusinesses [filter]` |
-| `/approvebusiness` | ✅ Approve business (Mayor only) | `/approvebusiness <name>` |
-
-### 💼 **Job Commands**
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `/jobs join` | 🤝 Join a job | `/jobs join <job>` |
-| `/jobs leave` | 👋 Leave a job | `/jobs leave <job>` |
-| `/jobs list` | 📋 List available jobs | `/jobs list` |
-| `/jobs info` | ℹ️ Get job information | `/jobs info <job>` |
-| `/jobs stats` | 📊 View job statistics | `/jobs stats [player]` |
-| `/jobs top` | 🏆 View top players | `/jobs top <job>` |
-| `/jobs bonus` | 🎁 View job bonuses | `/jobs bonus <job>` |
-| `/jobs toggle` | 🔔 Toggle notifications | `/jobs toggle` |
-
-### 📈 **Stock Market Commands**
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `/stocks` | 📊 View listed companies | `/stocks` |
-| `/stocks companies` | 🏢 List all companies | `/stocks companies` |
-| `/stocks invest` | 💰 Buy shares (7% tax) | `/stocks invest <company> <shares>` |
-| `/stocks dashboard` | 📈 View your portfolio | `/stocks dashboard` |
-| `/stocks sell` | 💸 Sell shares (10% tax) | `/stocks sell <company> <shares>` |
-
-### 🏪 **Shop Commands**
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `/shop create` | 🛒 Create shop sign | `/shop create <buy/sell> <item> <quantity> <price>` |
-| `/shop remove` | 🗑️ Remove shop sign | `/shop remove` |
-| `/shop info` | ℹ️ Get shop information | `/shop info` |
-| `/shop help` | ❓ Show shop help | `/shop help` |
-
-### 🎰 **Casino Commands**
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `/coinflip` | 🪙 Flip a coin for money | `/coinflip <amount> <heads/tails>` |
-| `/dicebet` | 🎲 Bet on dice roll | `/dicebet <amount> <number>` |
-| `/blackjack` | 🃏 Play blackjack | `/blackjack <bet>` |
-
-### 🏦 **Bank Commands**
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `/bank deposit` | 💳 Deposit money | `/bank deposit <amount>` |
-| `/bank withdraw` | 💵 Withdraw money | `/bank withdraw <amount>` |
-| `/bank balance` | 📊 Check bank balance | `/bank balance` |
-| `/bank transfer` | 💸 Transfer between accounts | `/bank transfer <player> <amount>` |
-
-### 🏛️ **Government Commands**
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `/treasury` | 🏦 View treasury status | `/treasury` |
-| `/tax set` | 📊 Set tax rates (Mayor only) | `/tax set <type> <rate>` |
-| `/tax collect` | 💰 Collect taxes (Mayor only) | `/tax collect` |
-| `/mayor run` | 🗳️ Run for mayor | `/mayor run` |
-| `/mayor vote` | 🗳️ Vote for mayor | `/mayor vote <candidate>` |
-| `/mayor info` | ℹ️ View mayor information | `/mayor info` |
+GamoEconPro isn't just another economy plugin - it's a complete economic ecosystem that brings real-world financial systems into your Minecraft server. Whether you're a casual player or a business mogul, there's something for everyone!
 
 ---
 
-## 🎯 **Key Features & Benefits**
+## What Makes Us Special
 
-### 🔄 **Automated Systems**
-- ⏰ Automatic interest calculations every hour
-- 🧹 Shop cleanup every 30 minutes  
-- 🗳️ Mayor term expiration checks every 10 minutes
-- 📊 Real-time stock price updates
+**Complete Business Empire**  
+Register companies, get government approval, and watch your stocks rise!
 
-### 💡 **Smart Economics**
-- 📈 Dynamic pricing based on supply/demand
-- 🏛️ Government treasury system with public funds
-- 💼 Job progression with tax benefits
-- 🎯 Risk/reward balanced gambling
+**Democratic Governance**  
+Run for mayor, vote in elections, and shape your server's future
 
-### 🛡️ **Security & Fairness**
-- 🔒 Secure transaction processing
-- ✅ Permission-based command access
-- 📝 Comprehensive data management
-- 🚫 Anti-exploitation measures
+**Advanced Banking with Loans**  
+Earn interest, take loans with collateral, and make secure transfers
 
-### 🎨 **User Experience**
-- 🌈 Colorful, intuitive command feedback
-- 📱 Smart tab completion for all commands
-- 💬 Helpful error messages and guidance
-- 🎮 Engaging progression systems
+**12 Unique Jobs**  
+From mining to farming - get paid for what you love doing
+
+**Vegas-Style Casino**  
+Test your luck with Blackjack, Dice, and Coin Flip games
+
+**Dynamic Stock Market**  
+Invest in businesses and watch your portfolio grow
+
+**Customizable Features**  
+Admins can enable/disable specific systems to match their server
 
 ---
 
-## 🚀 **Getting Started**
+## LATEST FEATURES - Version 1.2.0
 
-1. **💰 Start Earning**: Use `/jobs list` to see available jobs and `/jobs join <job>` to start earning!
-2. **🏪 Open a Shop**: Create chest shops with `/shop create` to sell items to other players
-3. **🏢 Start a Business**: Register with `/registerbusiness` and get approved by the mayor
-4. **📈 Invest Wisely**: Buy stocks with `/stocks invest` and watch your portfolio grow
-5. **🎰 Test Your Luck**: Try the casino games for quick profits (or losses!)
+### Bank Loans - Get Financial Help When You Need It
+
+Need extra funds for your in-game projects? The bank now offers **loans** to help you grow your wealth!
+
+**How It Works:**
+- **Borrow Money:** Take a loan from the bank when you're short on cash
+- **Collateral Required:** You must have **double the loan amount** in your bank account as security
+- **Interest Rate:** Loans come with a **14% interest fee** - so borrow wisely!
+- **Easy Repayment:** Pay back your loan anytime using `/bank loan repay`
+- **Automatic Reminders:** The bank will remind you every **5 minutes** about your pending loan
+- **Late Penalty:** If you don't repay within **7 days**, the bank will deduct the owed amount (plus a **5% fine**) from your wallet or bank balance
+
+> **Pro Tip:** Loans are great for big investments, but make sure you can pay them back!
+
+### Enable/Disable Game Features - Customize Your Economy
+
+Admins can now **turn features on or off** to match their server's needs!
+
+**Available Toggles:**
+- **Bank System** - Includes loans, deposits, and transfers
+- **Sign Shops** - Player-run shops using signs and chests
+- **Business System** - Register and manage businesses
+- **Stock Market** - Buy and sell shares of businesses
+- **Mayor Elections** - Players vote for a mayor to manage taxes
+
+**Configuration Setup:**
+1. Open the `config.yml` file
+2. Find the `enabled-features` section
+3. Set `true` (on) or `false` (off) for each feature
+4. Restart the server to apply changes
+
+```yaml
+enabled-features:
+  bank-system: true
+  sign-shops: true
+  business-system: true
+  stock-market: true
+  mayor-elections: false
+```
 
 ---
 
-## 🎖️ **Special Features**
+## Coming Soon
 
-### 🎁 **Job Bonuses**
-- 🏅 **Level 5**: Reduced tax rate (5%)
-- 💎 **Level 10**: 10% more earnings
-- 🛡️ **Level 15**: Access to special items  
-- 👑 **Level 20**: Exclusive quests
+**Auction House**  
+Bid on rare items and expand your collection
 
-### 💳 **Tax System**
-- 💸 Transfer tax: 15%
-- 📈 Stock investment tax: 7%
-- 💰 Stock selling tax: 10%
-- 🏛️ All taxes go to government treasury
+**Legal System**  
+Mayor can fine rule breakers and maintain order
 
-### 🗳️ **Democratic Governance**
-- 🎯 Players can run for mayor
-- 🗳️ Democratic voting system
-- 💼 Mayor manages business approvals
-- 🏛️ Treasury allocation decisions
+**Business Analytics**  
+Track your company's growth with detailed reports
 
 ---
 
-*Transform your server into a bustling economic powerhouse with **GamoEconPro**! 🚀*
+## Core Features Overview
+
+### Banking System
+| Feature | Description |
+|---------|-------------|
+| **Interest Rates** | Earn 1.75% compound interest hourly |
+| **Loan System** | Borrow money with 14% interest and collateral requirements |
+| **Secure Transfers** | Send money with built-in tax system |
+| **Account Management** | Professional banking experience |
+
+### Business Management
+- **Company Registration:** Start your entrepreneurial journey
+- **Government Approval:** Legitimate business licensing
+- **Stock Market Integration:** Your success drives stock prices
+- **Multiple Businesses:** Build your corporate empire
+
+### Government & Politics
+- **Mayor Elections:** Democratic leadership every week
+- **Treasury Management:** Control server finances
+- **Tax Collection:** Balanced economic policies
+- **Term Limits:** Fair representation for all
+
+### Player Shops
+- **Chest Shop System:** Automated 24/7 trading
+- **Buy/Sell Signs:** Simple setup, powerful results
+- **Offline Trading:** Earn money while you sleep
+- **Tax Integration:** 5% transaction tax to treasury
+
+---
+
+## Premium Features
+
+### Stock Market Revolution
+- Real-time Price Updates
+- Investment Portfolios
+- Company Listings
+- Dynamic Price Fluctuations
+
+### Casino Experience
+
+| Game | Payout | Risk Level |
+|------|--------|------------|
+| **Coin Flip** | 1.8x | Low |
+| **Dice Bet** | 6x | High |
+| **Blackjack** | 2.5x | Medium |
+
+### Job System - 12 Careers Available
+- **Miner** - Extract valuable resources
+- **Farmer** - Grow crops and raise animals
+- **Hunter** - Battle mobs for rewards
+- **Fisherman** - Cast your line for cash
+- **Builder** - Construct and earn
+- *...and 7 more exciting careers!*
+
+---
+
+## Perfect For
+
+| Server Type | Benefits |
+|-------------|----------|
+| **Roleplay Servers** | Realistic governance and economic systems |
+| **Economy Servers** | Advanced trading and financial mechanics |
+| **Survival Servers** | Enhanced progression and earning opportunities |
+| **Community Servers** | Democratic participation and social features |
+
+---
+
+## Installation
+
+### Quick Setup (2 Minutes!)
+1. Download GamoEconPro.jar
+2. Drop into your `/plugins` folder
+3. Restart your server
+4. Configure (optional) - works great out of the box!
+5. Enjoy your new economy!
+
+### Requirements
+- Minecraft 1.20+
+- Bukkit/Spigot/Paper
+- Java 17+
+
+---
+
+## Commands Reference
+
+### Economy Commands
+| Command | Description | Usage |
+|---------|-------------|-------|
+| `/khata` | Check your balance | `/khata` |
+| `/bheje` | Send money (15% tax) | `/bheje <player> <amount>` |
+| `/rupiya` | Admin money management | `/rupiya <add/remove> <player> <amount>` |
+
+### Banking Commands
+| Command | Description | Usage |
+|---------|-------------|-------|
+| `/bank deposit` | Save your money | `/bank deposit <amount>` |
+| `/bank withdraw` | Access your funds | `/bank withdraw <amount>` |
+| `/bank balance` | Check bank balance | `/bank balance` |
+| `/bank transfer` | Send between accounts | `/bank transfer <player> <amount>` |
+| `/bank loan request` | **NEW** - Request a loan | `/bank loan request <amount>` |
+| `/bank loan repay` | **NEW** - Repay your loan | `/bank loan repay` |
+
+### Business Commands
+| Command | Description | Usage |
+|---------|-------------|-------|
+| `/registerbusiness` | Start your company | `/registerbusiness <name>` |
+| `/viewbusinesses` | Browse all businesses | `/viewbusinesses [filter]` |
+| `/approvebusiness` | Mayor approval | `/approvebusiness <name>` |
+| `/cancelbusiness` | Close your business | `/cancelbusiness <name>` |
+
+### Stock Market Commands
+| Command | Description | Usage |
+|---------|-------------|-------|
+| `/stocks` | View market | `/stocks` |
+| `/stocks invest` | Buy shares (7% tax) | `/stocks invest <company> <shares>` |
+| `/stocks sell` | Sell shares (10% tax) | `/stocks sell <company> <shares>` |
+| `/stocks dashboard` | Your portfolio | `/stocks dashboard` |
+
+### Casino Commands
+| Command | Description | Usage |
+|---------|-------------|-------|
+| `/coinflip` | Heads or tails! | `/coinflip <amount> <heads/tails>` |
+| `/dicebet` | Roll the dice | `/dicebet <amount> <number>` |
+| `/blackjack` | Play 21 | `/blackjack <bet>` |
+
+### Government Commands
+| Command | Description | Usage |
+|---------|-------------|-------|
+| `/mayor run` | Campaign for office | `/mayor run` |
+| `/mayor vote` | Choose your leader | `/mayor vote <candidate>` |
+| `/treasury` | View public funds | `/treasury` |
+| `/tax set` | Set tax rates (Mayor) | `/tax set <type> <rate>` |
+
+### Job Commands
+| Command | Description | Usage |
+|---------|-------------|-------|
+| `/jobs join` | Start your career | `/jobs join <job>` |
+| `/jobs list` | See available jobs | `/jobs list` |
+| `/jobs stats` | View your progress | `/jobs stats [player]` |
+| `/jobs top` | Leaderboards | `/jobs top <job>` |
+
+---
+
+## Support & Community
+
+**Show Your Support:**
+- Star this repository
+- Leave a review on SpigotMC
+- Share with other server owners
+- Consider donating to support development
+
+**Get Help:**
+- Join our Discord community
+- Check our comprehensive documentation
+- Submit bug reports and feature requests
+
+---
+
+## License & Credits
+
+This project is licensed under the **MIT License**.
+
+**Developed with passion by the GamoEconPro Team**
+
+Special thanks to our beta testers and the amazing Minecraft server community!
+
+---
+
+## Ready to revolutionize your server's economy?
+
+**Transform your Minecraft server into an economic powerhouse today!**
+
+*GamoEconPro - Where Economy Meets Adventure*
